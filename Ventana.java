@@ -10,7 +10,8 @@ public class Ventana extends JFrame{
 		setDefaultClose(JFrame.EXIT_ON_CLOSE);
 		setLayout(null);
 		btnBoton=new JButton("Nuevo boton");
-		
+		btnBoton.setBounds(120,100,120,70);
+		add(btnBoton);		
 	
 	}
 }
